@@ -4,6 +4,7 @@ import { BlurImage } from "./BlurImage";
 import Button from "./Button";
 import { GridPattern } from "./GridPattern";
 import { motion, useScroll } from "framer-motion";
+import Logo2 from "@components/Logo";
 
 export const Hero = () => {
   const pattern = {
@@ -38,6 +39,10 @@ export const Hero = () => {
   return (
     <div className=" px-4">
       <div className="absolute inset-0 rounded-2xl transition duration-300 [mask-image:linear-gradient(white,transparent)] group-hover:opacity-50">
+      <div className="flex justify-center sm:justify-start sm:pl-8 sm:pt-7">
+  <Logo2 />
+</div>
+
         <GridPattern
           width={120}
           height={120}
@@ -45,6 +50,7 @@ export const Hero = () => {
           className="absolute inset-x-0 inset-y-[-30%] h-[160%]  w-full skew-y-[-5deg] fill-tertiary/[0.05] stroke-gray-100  dark:fill-primary dark:stroke-gray-100"
           {...pattern}
         />
+        
       </div>
       <div className="relative z-10 max-w-7xl mx-auto mt-32">
         <h1 className="font-semibold text-4xl sm:text-7xl text-center max-w-5xl mx-auto text-zinc-800 leading-tight tracking-tight">

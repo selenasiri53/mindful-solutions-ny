@@ -17,14 +17,14 @@ const Logo = ({
     <Link
       href="/"
       className={clsx(
-        "font-bold text-sm flex items-center justify-center text-white space-x-2",
+        "font-bold text-lg justify-center text-white space-x-2",
         textClassName
       )}
     >
       {/* <span className=" bg-primary w-6 h-6 flex items-center justify-center   rounded-[6px] font-mono relative overflow-hidden">
         <span className="absolute w-full h-full transform translate-x-3 bg-white/[0.2] rotate-45" />
       </span> */}
-      <Image src={Logo2} alt="mindful solutions logo" className="w-24 h-20 rounded-lg flex justify-center" />
+      <Image src={Logo2} alt="mindful solutions logo" className="absolute w-32 h-32 rounded-lg flex justify-center" />
         <span className="font-mono flex-none justify-center">
           {/* <h1>Mindful Solutions NY</h1>   */}
         </span>

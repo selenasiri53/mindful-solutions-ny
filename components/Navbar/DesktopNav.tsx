@@ -1,5 +1,5 @@
 import { CustomLink } from "@components/CustomLink";
-import Logo2 from "@components/Logo";
+// import Logo2 from "@components/Logo";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -9,7 +9,7 @@ export const DesktopNav = ({ navItems }: any) => {
   return (
     <div className="flex flex-row space-x-8 items-center antialiased border px-2 py-2 rounded-2xl bg-zinc-900
     ">
-      <Logo2 />
+      {/* <Logo2 /> */}
       {navItems.map((navItem: any, idx: number) => (
         <CustomLink
           key={`link=${idx}`}
@@ -21,7 +21,7 @@ export const DesktopNav = ({ navItems }: any) => {
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
-                className="absolute inset-0  transform  bg-gradient-to-b from-[#464d55] to-[#25292e] scale-105 rounded-xl"
+                className="absolute inset-0 transform  bg-gradient-to-b from-[#464d55] to-[#25292e] scale-105 rounded-xl"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{

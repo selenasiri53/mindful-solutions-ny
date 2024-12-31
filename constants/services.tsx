@@ -13,7 +13,7 @@ export const services = [
     icon: <Paintbrush className="text-primary h-5 w-5 relative z-50" />,
   },
   {
-    heading: "Incomparable Indoor Air Quality Testing",
+    heading: "Superior Indoor Air Quality Testing",
     description:
       "Our experts conduct thorough on-site evaluations to detect potential indoor air quality issues, such as mold, allergens, or chemical pollutants, providing detailed reports to highlight air quality concerns.",
     icon: <AirVent className="text-primary h-5 w-5 relative z-50" />,

@@ -1,5 +1,5 @@
 import { CustomLink } from "@components/CustomLink";
-import Logo from "@components/Logo";
+// import Logo from "@components/Logo";
 import { AnimatePresence, motion } from "framer-motion";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
@@ -34,7 +34,7 @@ export const MobileNav = ({ navItems }: any) => {
   return (
     <>
       <div className="flex flex-row justify-between items-center w-full">
-        <Logo textClassName="text-black" />
+        {/* <Logo textClassName="text-black" /> */}
         <IoIosMenu onClick={() => setOpen(!open)} />
       </div>
       <AnimatePresence>
