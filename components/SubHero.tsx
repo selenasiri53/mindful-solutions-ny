@@ -36,7 +36,7 @@ export const SubHero = () => {
   };
   return (
     <div
-      // id="services"
+      id="about-us"
       className="px-4 bg-zinc-900 pt-32 pb-10 md:pt-56 md:pb-6 relative group"
       onMouseMove={onMouseMove}
     >

@@ -70,7 +70,7 @@ export const Hero = () => {
             variant="outline"
             className="rounded-2xl py-2 border border-zinc-200"
           >
-            <Link href="/#features">Our services</Link>
+            <Link href="/#services">Our services</Link>
           </Button>
           <Button as="button" variant="large" className="rounded-2xl py-2">
             <Link href="/signup">Book a free call!</Link>
