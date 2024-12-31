@@ -20,7 +20,7 @@ export const services = [
   },
   {
     heading: "Post Construction Cleaning.",
-    description:
+    description: 
       "After construction or renovation, your space deserves a flawless finish. We offer professional post-construction cleaning designed to transform your property into a pristine, move-in-ready space.",
     icon: <Construction className="text-primary h-5 w-5 relative z-50" />,
   },

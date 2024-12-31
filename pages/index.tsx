@@ -1,6 +1,7 @@
 import { Container } from "@components/Container";
 import { CTA } from "@components/CTA";
 import { Hero } from "@components/Hero";
+import { AboutUs } from "@components/AboutUs";
 // import { Pricing } from "@components/Pricing";
 import { SubHero } from "@components/SubHero";
 import { Testimonials } from "@components/Testimonials";
@@ -10,6 +11,7 @@ const Home: NextPage = () => {
   return (
     <Container>
       <Hero />
+      <AboutUs />
       <SubHero />
       <Testimonials />
       {/* <Pricing /> */}

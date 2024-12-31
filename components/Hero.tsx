@@ -5,6 +5,9 @@ import Button from "./Button";
 import { GridPattern } from "./GridPattern";
 import { motion, useScroll } from "framer-motion";
 import Logo2 from "@components/Logo";
+import Inspection from "@components/Inspection.jpg"
+// import ManInspecting from "@components/ManInspecting.jpg"
+// import Brick from "@components/brick.jpeg"
 
 export const Hero = () => {
   const pattern = {
@@ -39,9 +42,9 @@ export const Hero = () => {
   return (
     <div className=" px-4">
       <div className="absolute inset-0 rounded-2xl transition duration-300 [mask-image:linear-gradient(white,transparent)] group-hover:opacity-50">
-      <div className="flex justify-center sm:justify-start sm:pl-8 sm:pt-7">
-  <Logo2 />
-</div>
+      <div className="flex justify-center sm:justify-start sm:pl-8 sm:pt-7 md:pl-24">
+        <Logo2 />
+      </div>
 
         <GridPattern
           width={120}
@@ -92,7 +95,7 @@ export const Hero = () => {
             className="relative w-[100%] overflow-x-hidden md:w-3/4 mx-auto h-[12rem] sm:h-[16rem] md:h-[24rem] lg:h-[32rem] -mb-12 md:-mb-32 max-w-5xl"
           >
             <BlurImage
-              src={"/images/landing2.webp"}
+              src={Inspection}
               layout="fill"
               className="rounded-xl md:rounded-3xl border mx-auto object-cover shadow-sm object-right-top"
             />
