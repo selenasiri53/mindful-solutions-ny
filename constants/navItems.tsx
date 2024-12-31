@@ -15,8 +15,8 @@ export const navItems = [
   //   name: "Pricing",
   //   link: "/#pricing",
   // },
-  {
-    name: "Blogs",
-    link: "/blogs",
-  },
+  // {
+  //   name: "Blogs",
+  //   link: "/blogs",
+  // },
 ];

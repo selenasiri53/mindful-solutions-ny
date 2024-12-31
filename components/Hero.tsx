@@ -92,7 +92,7 @@ export const Hero = () => {
                 mass: 0.5,
               },
             }}
-            className="relative w-[100%] overflow-x-hidden md:w-3/4 mx-auto h-[12rem] sm:h-[16rem] md:h-[24rem] lg:h-[32rem] -mb-12 md:-mb-32 max-w-5xl"
+            className="relative w-[100%] overflow-x-hidden md:w-3/4 mx-auto h-[12rem] sm:h-[24rem] lg:h-[32rem] -mb-12 md:-mb-32 max-w-8xl"
           >
             <BlurImage
               src={Inspection}

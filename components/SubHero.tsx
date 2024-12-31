@@ -1,6 +1,8 @@
 import { services } from "constants/services";
 import { useMotionValue } from "framer-motion";
 import React from "react";
+import Worker from "@components/Worker.jpg"
+import Image from "next/image";
 
 import { AiFillPieChart } from "react-icons/ai";
 import { CardPattern } from "./CardPattern";
@@ -34,12 +36,24 @@ export const SubHero = () => {
   };
   return (
     <div
-      id="services"
+      // id="services"
       className="px-4 bg-zinc-900 pt-32 pb-10 md:pt-56 md:pb-6 relative group"
       onMouseMove={onMouseMove}
     >
       <div className="absolute w-96 h-96 -left-20 -top-20 bg-gradient-to-t from-[#9890e3] to-[#b1f4cf] blur-3xl rounded-full opacity-20" />
-      <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
+      <div id="about-us" className="pb-40 max-w-2xl md:mx-auto md:text-center xl:max-w-none">
+        <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
+        About Us
+        </h2>
+        <p className="pb-16 sm:pb-20 mt-6 text-lg tracking-tight text-blue-100">
+        At Mindful Solutions, we pride ourselves on being a trusted partner for residential building services in New York City. With over 10 years of experience, we understand how important it is to feel confident in the safety and condition of your buildings. Our goal is to give you peace of mind, knowing that your property is in the best hands.
+        We specialize in providing comprehensive services that help protect your home and improve the quality of life for you and your family.
+        </p>
+        <div className="flex justify-center">
+          <Image src={Worker} alt="worker" className="flex justify-center w-full h-full lg:w-1/3 lg:h-1/3 mt-8 rounded-lg" />
+        </div>
+      </div>
+      <div id="services" className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
         <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
         Why Choose Mindful Solutions NY?
         </h2>
