@@ -42,7 +42,7 @@ export const Hero = () => {
   return (
     <div className=" px-4">
       <div className="absolute inset-0 rounded-2xl transition duration-300 [mask-image:linear-gradient(white,transparent)] group-hover:opacity-50">
-      <div className="flex justify-center sm:justify-start sm:pl-8 sm:pt-7 md:pl-24">
+      <div className="flex justify-center sm:justify-start sm:pl-8 pt-8 md:pt-2 md:pl-24">
         <Logo2 />
       </div>
 
@@ -55,7 +55,7 @@ export const Hero = () => {
         />
         
       </div>
-      <div className="relative z-10 max-w-7xl mx-auto mt-32">
+      <div className="relative z-10 max-w-7xl mx-auto mt-28 sm:mt-32">
         <h1 className="font-semibold text-4xl sm:text-7xl text-center max-w-5xl mx-auto text-zinc-800 leading-tight tracking-tight">
         NYC’s Trusted Partner for <span className="text-primary">Safer, Healthier</span> Buildings{" "}
            
@@ -79,7 +79,7 @@ export const Hero = () => {
 
         <div
           style={{ perspective: "1000px" }}
-          className="pt-20 px-4 w-full relative"
+          className="pt-12 sm:pt-20 px-4 w-full relative"
         >
           <motion.div
             animate={{

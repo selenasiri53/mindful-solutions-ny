@@ -35,7 +35,7 @@ export const MobileNav = ({ navItems }: any) => {
     <>
       <div className="flex flex-row justify-between items-center w-full">
         {/* <Logo textClassName="text-black" /> */}
-        <IoIosMenu onClick={() => setOpen(!open)} />
+        <IoIosMenu size={28} onClick={() => setOpen(!open)} />
       </div>
       <AnimatePresence>
         {open && (
@@ -47,7 +47,7 @@ export const MobileNav = ({ navItems }: any) => {
             className="fixed inset-0 bg-white z-50 flex flex-col justify-center items-center space-y-10  text-xl font-bold text-zinc-600  hover:text-zinc-800 transition duration-200"
           >
             <IoIosCloseCircleOutline
-              className="absolute right-8 top-8 h-5 w-5 "
+              className="absolute right-8 top-8 h-6 w-6 "
               onClick={() => setOpen(!open)}
             />
             {navItems.map((navItem: any, idx: number) => (

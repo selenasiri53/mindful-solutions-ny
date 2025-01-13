@@ -37,7 +37,7 @@ export const SubHero = () => {
   return (
     <div
       id="about-us"
-      className="px-4 bg-zinc-900 pt-32 pb-10 md:pt-56 md:pb-6 relative group"
+      className="px-4 bg-zinc-900 pt-16 sm:pt-20 pb-10 md:pt-56 md:pb-6 relative group"
       onMouseMove={onMouseMove}
     >
       <div className="absolute w-96 h-96 -left-20 -top-20 bg-gradient-to-t from-[#9890e3] to-[#b1f4cf] blur-3xl rounded-full opacity-20" />
@@ -49,8 +49,8 @@ export const SubHero = () => {
         At Mindful Solutions, we pride ourselves on being a trusted partner for residential building services in New York City. With over 10 years of experience, we understand how important it is to feel confident in the safety and condition of your buildings. Our goal is to give you peace of mind, knowing that your property is in the best hands.
         We specialize in providing comprehensive services that help protect your home and improve the quality of life for you and your family.
         </p>
-        <div className="flex justify-center">
-          <Image src={Worker} alt="worker" className="flex justify-center w-full h-full lg:w-1/3 lg:h-1/3 mt-8 rounded-lg" />
+        <div className="flex justify-center pt-8">
+          <Image src={Worker} alt="worker" className="flex justify-center w-full h-full lg:w-1/3 lg:h-1/3 border-[1.5px] border-white rounded-3xl" />
         </div>
       </div>
       <div id="services" className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">

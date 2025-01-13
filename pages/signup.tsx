@@ -7,8 +7,6 @@ import { Phone } from 'lucide-react';
 import { Send } from 'lucide-react';
 import { MapPin } from 'lucide-react';
 
-
-
 import type { NextPage } from "next";
 import Link from "next/link";
 
@@ -43,7 +41,9 @@ const SignUp: NextPage = () => {
         </div>
         <div className="px-10 py-20 rounded-xl bg-white shadow-lg w-[30rem] mt-10 md:mt-14 mx-4 relative z-10">
           <Logo textClassName="text-zinc-700" />
-          <div className="my-8 text-md text-zinc-700 text-center">
+          <div className="my-4 text-md text-zinc-700 text-center">
+            <h1 className="text-2xl">Have questions? Schedule a free consultation!</h1>
+            <p className="py-8">Our team is here to help! Get in touch with us today for expert advice, reliable service, and thorough inspections.</p>
             <a href="tel:6464967039" className="flex space-x-1 items-center justify-center">
               <Phone className="text-primary w-4 h-4" />
               <h3>646-496-7039</h3>
@@ -62,7 +62,7 @@ const SignUp: NextPage = () => {
             <h3></h3>
           </div> */}
           
-          <form onSubmit={handleSubmit}>
+          {/* <form onSubmit={handleSubmit}>
             <input
               type="text"
               className=" w-full rounded-xl shadow-sm border border-gray-100 placeholder:text-gray-500 focus:ring-2 focus:ring-primary focus:border-transparent mb-6"
@@ -89,7 +89,7 @@ const SignUp: NextPage = () => {
             >
               Message
             </Button>
-          </form>
+          </form> */}
         </div>
       </div>
     </Container>
@@ -97,3 +97,4 @@ const SignUp: NextPage = () => {
 };
 
 export default SignUp;
+``
